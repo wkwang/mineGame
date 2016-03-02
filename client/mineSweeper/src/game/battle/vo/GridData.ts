@@ -1,22 +1,15 @@
 /**
  *
- * @author 
+ * @author wkwang
  *
  */
 class GridData {
-    public row: number;
-    public column: number;
     
-    public gridArr: Array<number>;
+    public index: number; //格子的数字编号
+    public type: number; //格子类型
+    public signCount: number; //标识的数字
+    
     //初始化网格，需要行数和列数
-    public constructor(row: number, column: number) {
-        this.row = row;
-        this.column = column;
-        this.gridArr = new Array();
-        for(var i = 0;i < this.row;i++) {
-            for(var j = 0;j < this.row;j++) {
-                this.gridArr[i][j] = 0
-            }
-        }
+    public constructor() {
 	}
 }

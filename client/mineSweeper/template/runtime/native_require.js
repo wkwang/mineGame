@@ -8,11 +8,12 @@ var game_file_list = [
 	"libs/modules/game/game.native.js",
 	"libs/modules/tween/tween.js",
 	"libs/modules/res/res.js",
-	"bin-debug/LoadingUI.js",
-	"bin-debug/Main.js",
+	"bin-debug/game/battle/BaseBattleScene.js",
 	"bin-debug/game/battle/IBattleScene.js",
 	"bin-debug/game/battle/vo/GridData.js",
-	"bin-debug/game/battle/BaseBattleScene.js",
+	"bin-debug/game/enum/MineEnum.js",
+	"bin-debug/LoadingUI.js",
+	"bin-debug/Main.js",
 	//----auto game_file_list end----
 ];
 

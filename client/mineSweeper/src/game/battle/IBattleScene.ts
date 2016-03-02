@@ -1,6 +1,6 @@
 /**
  *
- * @author 
+ * @author wkwang
  *
  */
 interface IBattleScene {
